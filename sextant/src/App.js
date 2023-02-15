@@ -9,11 +9,17 @@ function App() {
           <h1>
             Jun Kim's Cisco-Project
           </h1>
-          <div class="exhibit-content">
-            
-          </div>
         </div>
       </header>
+      <main>
+        <div class="exhibit">
+          <h2>My Exhibit Heading</h2>
+          <div class="exhibit-content">
+            <img src="https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/ad0fee7c-eecb-4e6d-b90f-8b6ca3a1e95c/cisco-logo-transparent.png" alt="cisco logo imange"></img>
+          </div>
+              
+        </div>
+      </main>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
