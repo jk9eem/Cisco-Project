@@ -9,6 +9,9 @@ function App() {
           <h1>
             Jun Kim's Cisco-Project
           </h1>
+          <div class="exhibit-content">
+            
+          </div>
         </div>
       </header>
         <p>
