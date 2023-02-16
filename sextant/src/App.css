@@ -24,7 +24,7 @@
 }
 .exhibit {
   background-color: #282c34;
-  min-height: 50vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,6 +37,10 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+
+ul.list-content{
+  list-style-position: inside;
 }
 
 .App-link {
