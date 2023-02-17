@@ -48,6 +48,15 @@ ul.list-content {
 
 ul.list-content li {
   margin-bottom: 10px;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+ul.list-content li:before {
+  content: "•";
+  display: inline-block;
+  margin-right: -1em;
+  width: 1em;
 }
 
 .App-link {
