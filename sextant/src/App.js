@@ -18,15 +18,33 @@ function App() {
               alt="cisco logo image"
             ></img>
           </div>
-        
 
           <ul class="list-content">
             <li>Security everywhere for hybrid work anywhere</li>
             <li>Implement cloud your way</li>
             <li>Protect users, devices, and your network</li>
           </ul>
-          
-        </div>    
+        </div>
+
+        <div class="exhibit-panel">
+          <ul class="tab-menu">
+            <li class="active">Tab 1</li>
+            <li>Tab 2</li>
+            <li>Tab 3</li>
+          </ul>
+          <div class="tab-content active">
+            <h2>Tab 1 Content</h2>
+            <p>This is the content of tab 1.</p>
+          </div>
+          <div class="tab-content">
+            <h2>Tab 2 Content</h2>
+            <p>This is the content of tab 2.</p>
+          </div>
+          <div class="tab-content">
+            <h2>Tab 3 Content</h2>
+            <p>This is the content of tab 3.</p>
+          </div>
+        </div>
         
       </main>
       <p>
