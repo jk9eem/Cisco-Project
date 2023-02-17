@@ -39,8 +39,15 @@
   object-fit: cover;
 }
 
-ul.list-content{
-  list-style-position: inside;
+ul.list-content {
+  list-style-type: none;
+  margin: 0;
+  padding: 50px;
+  text-align: left;
+}
+
+ul.list-content li {
+  margin-bottom: 10px;
 }
 
 .App-link {
