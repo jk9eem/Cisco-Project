@@ -59,7 +59,7 @@ ul.list-content li:before {
   width: 1em;
 }
 
-.exhibit-panel {
+/* .exhibit-panel {
   border: 1px solid #ddd;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -93,8 +93,42 @@ ul.list-content li:before {
 
 .tab-content.active {
   display: block;
+} */
+
+.exhibit-panel {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
+.exhibit-panel-tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ddd;
+}
+
+.exhibit-panel-tabs li {
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.exhibit-panel-tabs li.active {
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.exhibit-panel-content {
+  display: none;
+}
+
+.exhibit-panel-content.active {
+  display: block;
+}
 
 .App-link {
   color: #61dafb;

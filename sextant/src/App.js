@@ -26,7 +26,7 @@ function App() {
           </ul>
         </div>
 
-        <div class="exhibit-panel">
+        {/* <div class="exhibit-panel">
           <ul class="tab-menu">
             <li class="active">Tab 1</li>
             <li>Tab 2</li>
@@ -44,7 +44,25 @@ function App() {
             <h2>Tab 3 Content</h2>
             <p>This is the content of tab 3.</p>
           </div>
+        </div> */}
+
+        <div class="exhibit-panel">
+          <ul class="exhibit-panel-tabs">
+            <li class="active">Tab 1</li>
+            <li>Tab 2</li>
+            <li>Tab 3</li>
+          </ul>
+          <div class="exhibit-panel-content active">
+            //-- Child components for tab 1 here --
+          </div>
+          <div class="exhibit-panel-content">
+            //-- Child components for tab 2 here --
+          </div>
+          <div class="exhibit-panel-content">
+            //-- Child components for tab 3 here --
+          </div>
         </div>
+
         
       </main>
       <p>
