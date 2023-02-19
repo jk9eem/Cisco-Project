@@ -48,9 +48,9 @@ function App() {
 
         <div class="exhibit-panel">
           <ul class="exhibit-panel-tabs">
-            <li class="active">Tab 1</li>
-            <li>Tab 2</li>
-            <li>Tab 3</li>
+            <li class="active" type="button">Tab 1</li>
+            <li type="button">Tab 2</li>
+            <li type="button">Tab 3</li>
           </ul>
           <div class="exhibit-panel-content active">
             //-- Child components for tab 1 here --
